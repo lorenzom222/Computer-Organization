@@ -42,15 +42,15 @@
 
 ### Hexadecimal Notation
 - 1 byte has 8 bits. 
-    - Binary ranges from `00000000<sub>2</sub>` to `11111111<sub>2</sub>`. 
-    - Decimal ranges from `0<sub>10</sub>` to `255<sub>10</sub>`
+    - Binary ranges from 00000000<sub>2</sub> to 11111111<sub>2</sub>. 
+    - Decimal ranges from 0<sub>10</sub> to 255<sub>10</sub>
 - Both dont work well for describing bit patterns:
     - Binary too verbose
     - Decimal too tedious to and from bit patterns
 - Hexadecimal: `0` to `9` to `A` to `F`
     - Base-16: 16 possible way to represent a decimal values `0` to `15`
-    - Range from `00<sub>16</sub>` to `FF<sub>16</sub>`
-    - C Notation of Hex: `0x{number}`, eg.  `"FA1D37B<sub>16</sub>" = 0xFA1D37B`
+    - Range from 00<sub>16</sub> to FF<sub>16</sub>
+    - C Notation of Hex: `0x{number}`, eg.  "FA1D37B<sub>16</sub> = `0xFA1D37B`
 
 
 
