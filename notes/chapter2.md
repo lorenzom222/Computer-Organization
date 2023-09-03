@@ -33,4 +33,24 @@
 - **Floating-Point**: Way to represent real numbers, such as decimals.
 
 ## Info Storage
+- **Bytes**: Memory blocks consiting of 8 bits. Block is labeled with address
+- **Virtual Memory**: From the machine-level, memory is seen as long array of bytes.
+- **Addresses**: Identifier for memory. For VM, the set of all possible address is know as "Virtual Address Space"
+- Virtual vs Physical: 
+    - Virtual address space is a conceptual idea presented to the machine-level program
+    - Reality, the computer uses a combination of different types of memory, including dynamic random access memory (DRAM), flash memory, and disk storage, along with specialized hardware and operating system software, to provide the program with the illusion of a single, contiguous byte array.
+
+### Hexadecimal Notation
+- 1 byte has 8 bits. 
+    - Binary ranges from `00000000<sub>2</sub>` to `11111111<sub>2</sub>`. 
+    - Decimal ranges from `0<sub>10</sub>` to `255<sub>10</sub>`
+- Both dont work well for describing bit patterns:
+    - Binary too verbose
+    - Decimal too tedious to and from bit patterns
+- Hexadecimal: `0` to `9` to `A` to `F`
+    - Base-16: 16 possible way to represent a decimal values `0` to `15`
+    - Range from `00<sub>16</sub>` to `FF<sub>16</sub>`
+    - C Notation of Hex: `0x{number}`, eg.  `"FA1D37B<sub>16</sub>" = 0xFA1D37B`
+
+
 
